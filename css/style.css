@@ -1,0 +1,304 @@
+.body-front{
+		background-image: url(../img/background-image.jpg);
+		background-repeat: no-repeat;
+		background-size: 11000px 1100px;
+		font-family: sans-serif;
+		height: 500px;
+		margin: 20px auto;
+		width: 1100px;
+}
+.header-color{
+	background: #c7cccb;
+}
+
+li{
+		display: inline;
+		font-size: 15px;
+}
+
+ul a{
+		color: white;
+		text-decoration: none;
+}
+
+ul a:hover{
+		color: cyan;
+}
+
+aside{
+		float:right;
+		margin-top: 20px;
+		margin-right: 10px;
+}
+
+.content{
+		background-color: red: 
+		float: left;
+		left: 30px;
+		position: fixed;
+		top: 40x;
+}
+
+.img_separation{
+		padding:0.01em 16px;
+}
+
+.img-padding{
+		padding-right: 20px;
+}
+
+.img-col-1{
+			max-width: 30%;
+			padding-right: 20px;
+}
+
+.hero-image{	  
+	  background-image: url(../img/weather_hero.jpg);
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  box-shadow: 8px 8px 10px #aaa;
+	  min-height: 600px;
+	  position: relative;
+	  width: 100%;
+}
+
+
+.hero-text{
+		color: white;
+	  left: 50%;
+	  position: absolute;
+	  top: 50%;
+	  text-align: center;
+	  transform: translate(-50%, -50%);
+}
+
+.hero-text button{
+	  background-color: #ddd;
+	  border: none;
+	  color: black;
+	  cursor: pointer;
+	  display: inline-block;
+	  outline: 0;
+	  padding: 10px 25px;	  
+	  text-align: center;
+	  width: 150px;
+}
+
+
+.hero-text button:hover{
+		background-color: #555;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	  color: white;
+}
+
+.img-border{
+	margin-top: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+.img-border:hover{
+	    -webkit-transform:scale(1.30);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+section{
+  text-align:center;
+}
+.footer #button{
+		
+		border: #727172 12px solid;
+		border-radius:35px;
+		margin:0 auto;
+		position:relative;
+		height:35px;
+		width:35px;
+}
+
+.footer #button:hover{
+		border: #3A3A3A 12px solid;
+		height:35px;
+		position:relative;
+		width:35px;
+}
+
+.footer{
+		bottom:0;
+		height: 2em;
+		left: 170px;
+		margin: auto;
+		overflow:hidden;  
+		position:fixed;
+    width: 100%;
+    opacity: .6;      
+}
+
+.footer:hover{
+		height: 10em;
+}
+
+.footer #container{
+		background: #3a3a3a;
+		height:100%;
+		left:0;
+		margin-top:5px;
+	  position:relative;
+	  top:0;
+	  width:100%;	
+}
+
+.footer #cont{
+		height:auto;
+	  position:relative;
+	  right:190px;
+	  top:-45px;
+		width:150px;
+		margin:0 auto;
+}
+
+.footer_center{
+		float:left;
+	  text-align:center;
+	  width:500px;
+}
+
+.footer h3{
+		font-family: 'Helvetica';
+		font-size: 30px;
+		font-weight: 100;
+		margin-top:70px;
+		margin-left:40px;
+}
+
+#hero-h1{
+		font-size:50px;
+		text-shadow: 10px 10px 8px #a5afae;
+		width: 1000px;
+}
+
+.tb-td{
+		color: #4F403D;
+		font-size:30px;
+		text-shadow: 0 1px 0 #ccc,
+	               0 2px 0 #c9c9c9,
+	               0 3px 0 #bbb,
+	               0 4px 0 #b9b9b9,
+	               0 5px 0 #aaa,
+	               0 6px 1px rgba(0,0,0,.1),
+	               0 0 5px rgba(0,0,0,.1),
+	               0 1px 3px rgba(0,0,0,.3),
+	               0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.25),
+	               0 10px 10px rgba(0,0,0,.2),
+	               0 20px 20px rgba(0,0,0,.15);
+}
+
+.footer-h3{
+		color: white;
+}
+
+.footer-ul{
+		padding-top: 40px;	
+}
+
+.footer-a:hover{
+ 		opacity: 0.5;
+}
+
+.city-weather{
+		align-items: center;
+		color: #9ea7a4;
+		padding-bottom: 60px;
+		
+		padding-top: 60px;
+		width: 100%;
+}
+
+.temp-width-1 {
+		width: 80%;
+}
+
+.temp-width-2{
+		width: 20%;
+}
+
+.weather-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.weather-table-th {
+		font-size: 20px;
+}
+
+.weather-table-td {
+    text-align: left;
+    padding: 8px;
+}
+
+.weather-table-tr:nth-child(even){
+		background-color: #d3c2c2;
+		color: black;
+
+}
+ 
+.weather-table-tr:hover {
+		font-size: 30px;
+		opacity: 0.5;
+}
+
+.weather-table-h1 {
+		color: #646766;
+		text-shadow: 10px 10px 20px red;
+		font-size: 30px;
+
+}
+.article-1 .article-1-img {
+		float: right;
+		margin-left: 30px;
+}
+.article-1 .article-1-h2 {
+		color: #8d9493;
+		padding-right: 10px;
+		margin-top: 25px;
+}
+
+.article-1 .article-1-p {
+		color: white;
+		line-height: 200%;
+}
+
+.shift-content-left {
+		float: right;
+		margin-top: 20px;
+		width:70%;
+}
+
+.article-2 .article-2-img {
+		float: left;
+		margin-right: 30px;
+		
+}
+.shift-content-right {
+		float: left;
+		margin-top: 20px;
+		width:70%;
+}
+ 
+.article-2 .article-2-h2 {
+		color: #8d9493;
+		padding-right: 10px;	
+}
+
+.article-2 .article-2-p {
+		color: white;
+		line-height: 200%;
+}
+
+
+
+
+
